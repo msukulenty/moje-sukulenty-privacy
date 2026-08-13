@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Polityka prywatności — Moje Sukulenty</title>
+  <style>
+    :root {
+      color-scheme: light dark;
+      --text: #1a1f1c;
+      --muted: #4a5a52;
+      --bg: #f7faf8;
+      --card: #ffffff;
+      --accent: #2f6b4f;
+      --border: #d8e3dc;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --text: #e8eee9;
+        --muted: #a8b5ad;
+        --bg: #121614;
+        --card: #1a211d;
+        --accent: #7fbf9a;
+        --border: #2a3530;
+      }
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      line-height: 1.6;
+      color: var(--text);
+      background: var(--bg);
+    }
+    main {
+      max-width: 42rem;
+      margin: 0 auto;
+      padding: 1.5rem 1.25rem 3rem;
+    }
+    header {
+      margin-bottom: 2rem;
+      padding-bottom: 1rem;
+      border-bottom: 1px solid var(--border);
+    }
+    h1 {
+      font-size: 1.6rem;
+      line-height: 1.25;
+      margin: 0 0 0.75rem;
+    }
+    .meta {
+      color: var(--muted);
+      font-size: 0.95rem;
+      margin: 0;
+    }
+    h2 {
+      font-size: 1.15rem;
+      margin: 2rem 0 0.75rem;
+      color: var(--accent);
+    }
+    p, li { margin: 0 0 0.75rem; }
+    ul { padding-left: 1.25rem; margin: 0 0 1rem; }
+    a { color: var(--accent); }
+    footer {
+      margin-top: 2.5rem;
+      padding-top: 1rem;
+      border-top: 1px solid var(--border);
+      color: var(--muted);
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <h1>Polityka prywatności aplikacji „Moje Sukulenty”</h1>
+      <p class="meta">
+        Deweloper: Krzysztof Andrzejewski<br>
+        Aplikacja: Moje Sukulenty (Android, <code>pl.mojesukulenty.app</code>)<br>
+        Kontakt w sprawach prywatności: <a href="mailto:msukulenty@gmail.com">msukulenty@gmail.com</a><br>
+        Data wejścia w życie: 13 sierpnia 2026 r.
+      </p>
+    </header>
+
+    <section>
+      <h2>1. Informacje podstawowe</h2>
+      <p>
+        Niniejsza polityka opisuje, w jaki sposób aplikacja mobilna „Moje Sukulenty”
+        przetwarza dane w związku z korzystaniem z aplikacji na urządzeniu użytkownika.
+        Polityka dotyczy wyłącznie tej aplikacji.
+      </p>
+      <p>
+        W razie pytań dotyczących prywatności prosimy o kontakt pod adresem
+        <a href="mailto:msukulenty@gmail.com">msukulenty@gmail.com</a>.
+      </p>
+    </section>
+
+    <section>
+      <h2>2. Charakter aplikacji</h2>
+      <p>
+        „Moje Sukulenty” to polska aplikacja mobilna na Androida służąca do prowadzenia
+        kolekcji sukulentów i kaktusów oraz korzystania z wbudowanego atlasu gatunków.
+      </p>
+      <ul>
+        <li>Aplikacja działa w modelu <strong>offline-first</strong> — podstawowe funkcje nie wymagają konta użytkownika ani ciągłego połączenia z internetem.</li>
+        <li>Aplikacja <strong>nie tworzy kont użytkownika</strong> i nie wymaga logowania.</li>
+        <li>Dane wprowadzane przez użytkownika (kolekcja, notatki, zdjęcia, historia pielęgnacji, lista życzeń) są przechowywane <strong>lokalnie na urządzeniu</strong> w pamięci aplikacji.</li>
+        <li>Aplikacja <strong>nie synchronizuje</strong> danych kolekcji z własnym serwerem dewelopera.</li>
+        <li>Aplikacja <strong>nie wyświetla reklam</strong> i <strong>nie korzysta z narzędzi analitycznych ani raportowania awarii</strong> od osób trzecich (np. Firebase Analytics, Crashlytics).</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>3. Dane przechowywane lokalnie</h2>
+      <p>
+        Poniższe dane są zapisywane wyłącznie na urządzeniu użytkownika, o ile użytkownik
+        sam nie wyeksportuje ich poza urządzenie (patrz sekcja 5) lub nie skontaktuje się
+        z deweloperem (patrz sekcja 7).
+      </p>
+      <ul>
+        <li><strong>Kolekcja roślin</strong> — nazwa lub pseudonim, powiązany gatunek z atlasu, opcjonalna lokalizacja rośliny wpisana przez użytkownika (np. „Salon”, „Parapecie”), data i źródło nabycia, notatki, status (aktywna / zarchiwizowana), daty utworzenia i modyfikacji.</li>
+        <li><strong>Historia pielęgnacji</strong> — typ zdarzenia (np. podlewanie), data, opcjonalna notatka, powiązanie z rośliną.</li>
+        <li><strong>Lista życzeń</strong> — gatunek z atlasu, opcjonalna notatka, daty utworzenia i modyfikacji.</li>
+        <li><strong>Zdjęcia roślin</strong> — pliki zdjęć zapisane w pamięci aplikacji, miniatury oraz metadane w bazie (identyfikatory, data dodania zdjęcia w aplikacji).</li>
+        <li><strong>Ustawienia aplikacji</strong> — m.in. motyw (jasny / ciemny / systemowy), informacja o ukończeniu wprowadzenia, wersja zaimportowanego atlasu, wersja schematu bazy danych.</li>
+        <li><strong>Status Premium</strong> — lokalne flagi potwierdzające aktywne uprawnienie Premium (subskrypcja miesięczna lub zakup dożywotni) oraz data ostatniej weryfikacji ze Sklepem Google Play.</li>
+      </ul>
+      <p>
+        Pole „lokalizacja” przy roślinie oznacza tekst wpisany przez użytkownika
+        i <strong>nie jest</strong> automatyczną geolokalizacją GPS urządzenia.
+      </p>
+    </section>
+
+    <section>
+      <h2>4. Zdjęcia i dostęp do mediów</h2>
+      <p>
+        Użytkownik może dodać zdjęcie rośliny z aparatu lub z galerii systemowej
+        (Android Photo Picker / wybór pliku przez system). Aplikacja nie deklaruje
+        uprawnień do aparatu ani szerokiego dostępu do pamięci zewnętrznej —
+        korzysta z mechanizmów systemowych do wyboru pliku.
+      </p>
+      <ul>
+        <li>Oryginalny plik zdjęcia jest kopiowany do pamięci aplikacji <strong>bez modyfikacji bajtów</strong>. Jeśli zdjęcie źródłowe zawierało metadane EXIF (np. model aparatu, data wykonania, ewentualnie współrzędne GPS), te dane mogą pozostać w skopiowanym pliku.</li>
+        <li>Aplikacja <strong>nie odczytuje</strong> metadanych EXIF ani lokalizacji GPS ze zdjęć. Data wyświetlana przy zdjęciu pochodzi z momentu dodania zdjęcia w aplikacji.</li>
+        <li>Miniatura zdjęcia jest generowana lokalnie; podczas tego procesu metadane EXIF są <strong>usuwane</strong> z pliku miniatury.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>5. Kopie zapasowe i import</h2>
+      <p>
+        Eksport i import kopii zapasowej są inicjowane <strong>wyłącznie przez użytkownika</strong>
+        z poziomu ustawień aplikacji.
+      </p>
+      <ul>
+        <li><strong>Eksport</strong> tworzy plik ZIP (<code>moje_sukulenty_backup.zip</code>) zawierający dane kolekcji, historię pielęgnacji, listę życzeń oraz oryginalne pliki zdjęć. Następnie otwierany jest systemowy arkusz udostępniania — użytkownik wybiera, gdzie zapisać lub wysłać plik (np. Dysk, e-mail, menedżer plików).</li>
+        <li><strong>Import</strong> polega na wyborze pliku ZIP przez użytkownika; dane są wczytywane do lokalnej bazy aplikacji.</li>
+        <li>Aplikacja <strong>nie wysyła</strong> kopii zapasowej automatycznie na serwer dewelopera.</li>
+        <li>Do kopii zapasowej <strong>nie trafiają</strong>: status Premium, dane płatności, ustawienia aplikacji (np. motyw), zawartość atlasu gatunków ani miniatury zdjęć (są odtwarzane przy imporcie).</li>
+      </ul>
+      <p>
+        Po wyeksportowaniu pliku ZIP odpowiedzialność za jego przechowywanie,
+        udostępnianie i bezpieczeństwo spoczywa na użytkowniku i wybranym przez niego
+        miejscu docelowym.
+      </p>
+    </section>
+
+    <section>
+      <h2>6. Premium i Google Play</h2>
+      <p>
+        Aplikacja oferuje opcjonalne funkcje Premium poprzez Sklep Google Play:
+      </p>
+      <ul>
+        <li>subskrypcja miesięczna (<code>premium_monthly_sub</code>),</li>
+        <li>jednorazowy zakup dożywotni (<code>premium_lifetime_purchase</code>).</li>
+      </ul>
+      <p>
+        <strong>Płatności</strong> są obsługiwane przez Google Play. Deweloper aplikacji
+        <strong>nie otrzymuje</strong> danych karty płatniczej, konta bankowego ani pełnych
+        danych płatniczych użytkownika.
+      </p>
+      <p>
+        W ramach zakupu lub przywrócenia zakupów aplikacja komunikuje się ze Sklepem
+        Google Play i otrzymuje informacje niezbędne do obsługi transakcji (np. identyfikator
+        produktu, status zakupu, dane weryfikacyjne od Google). Te dane weryfikacyjne
+        są używane w pamięci podczas przetwarzania zakupu i <strong>nie są trwale
+        zapisywane</strong> w bazie aplikacji.
+      </p>
+      <p>
+        Lokalnie aplikacja zapisuje wyłącznie <strong>informację o aktywnym uprawnieniu
+        Premium</strong> (flagi typu „subskrypcja miesięczna aktywna” / „zakup dożywotni
+        aktywny”) oraz datę ostatniej weryfikacji. Szczegóły przetwarzania danych
+        przez Google reguluje polityka prywatności Google:
+        <a href="https://policies.google.com/privacy" rel="noopener noreferrer">policies.google.com/privacy</a>.
+      </p>
+    </section>
+
+    <section>
+      <h2>7. Kontakt z deweloperem</h2>
+      <p>
+        Aplikacja umożliwia kontakt z deweloperem wyłącznie po inicjatywie użytkownika,
+        przez otwarcie klienta poczty e-mail (protokół <code>mailto:</code>).
+        Aplikacja <strong>nie wysyła</strong> wiadomości automatycznie — użytkownik
+        musi sam wysłać e-mail.
+      </p>
+      <h3 style="font-size:1rem;margin:1.25rem 0 0.5rem;">Zgłoszenie błędu</h3>
+      <p>
+        Po wybraniu „Zgłoś błąd” aplikacja przygotowuje szablon wiadomości na adres
+        <a href="mailto:msukulenty@gmail.com">msukulenty@gmail.com</a> z następującymi
+        informacjami technicznymi:
+      </p>
+      <ul>
+        <li>wersja aplikacji i numer kompilacji,</li>
+        <li>model urządzenia (producent i model),</li>
+        <li>wersja systemu Android.</li>
+      </ul>
+      <p>
+        Szablon <strong>nie zawiera</strong> danych kolekcji, zdjęć, historii pielęgnacji
+        ani tokenów zakupu. Użytkownik sam decyduje, jakie dodatkowe informacje dołączy
+        do wiadomości.
+      </p>
+      <h3 style="font-size:1rem;margin:1.25rem 0 0.5rem;">Propozycja gatunku do atlasu</h3>
+      <p>
+        Po wybraniu „Zaproponuj gatunek” aplikacja otwiera szablon wiadomości e-mail
+        bez danych diagnostycznych urządzenia. Użytkownik wpisuje proponowany gatunek
+        i uzasadnienie, a następnie sam wysyła wiadomość.
+      </p>
+    </section>
+
+    <section>
+      <h2>8. Usługi zewnętrzne istotne dla prywatności</h2>
+      <ul>
+        <li><strong>Google Play / Google Play Billing</strong> — obsługa zakupów Premium, weryfikacja i przywracanie transakcji. Komunikacja sieciowa między aplikacją a infrastrukturą Google w związku z płatnościami.</li>
+        <li><strong>Usługi Google związane z wyborem zdjęć</strong> — system Android może korzystać z modułów Google Play Services przy wyborze zdjęć z galerii (Photo Picker). Aplikacja otrzymuje wybrany plik; nie wysyła kolekcji użytkownika do Google w tym procesie.</li>
+        <li><strong>GitHub Pages</strong> — hosting niniejszej strony polityki prywatności (statyczna strona HTML bez trackerów).</li>
+      </ul>
+      <p>
+        Biblioteki lokalne (baza danych Isar, kompresja obrazów, wybór plików itp.)
+        działają na urządzeniu i same z siebie nie przekazują danych kolekcji
+        deweloperowi.
+      </p>
+    </section>
+
+    <section>
+      <h2>9. Reklamy, analityka i śledzenie</h2>
+      <p>
+        Aplikacja <strong>nie zawiera</strong> reklam, SDK reklamowych, narzędzi
+        analityki użytkowania ani raportowania awarii od osób trzecich.
+        Aplikacja <strong>nie zbiera</strong> identyfikatora reklamowego (Advertising ID)
+        ani App Set ID w celach analitycznych lub marketingowych.
+      </p>
+      <p>
+        Aplikacja <strong>nie zbiera</strong> geolokalizacji urządzenia.
+      </p>
+    </section>
+
+    <section>
+      <h2>10. Retencja i usuwanie danych</h2>
+      <p>
+        Ponieważ aplikacja nie prowadzi kont użytkowników, dane są przechowywane
+        lokalnie na urządzeniu do momentu usunięcia przez użytkownika lub usunięcia
+        aplikacji.
+      </p>
+      <ul>
+        <li><strong>Usunięcie rośliny</strong> — trwale usuwa rekord rośliny, powiązane zdjęcia (pliki i metadane) oraz historię pielęgnacji tej rośliny.</li>
+        <li><strong>Archiwizacja rośliny</strong> — zmienia status na „zarchiwizowana”; dane pozostają na urządzeniu.</li>
+        <li><strong>Usunięcie zdjęcia lub wpisu pielęgnacji</strong> — możliwe z poziomu aplikacji.</li>
+        <li><strong>Lista życzeń</strong> — wpisy można usunąć w aplikacji.</li>
+        <li><strong>Odinstalowanie aplikacji</strong> lub wyczyszczenie danych aplikacji w ustawieniach Androida usuwa lokalną bazę danych i pliki zdjęć z pamięci aplikacji.</li>
+        <li><strong>Wyeksportowane kopie zapasowe</strong> pozostają tam, gdzie użytkownik je zapisał — aplikacja nie ma do nich dostępu po eksporcie. Użytkownik powinien je usunąć samodzielnie, jeśli nie chce ich przechowywać.</li>
+        <li><strong>E-maile wysłane do dewelopera</strong> — przechowywane w skrzynce odbiorczej dewelopera zgodnie z jego praktykami; można poprosić o usunięcie korespondencji, pisząc na <a href="mailto:msukulenty@gmail.com">msukulenty@gmail.com</a>.</li>
+        <li><strong>Dane zakupów w Google Play</strong> — regulowane przez Google; użytkownik może zarządzać subskrypcjami w Sklepie Google Play lub na koncie Google.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>11. Bezpieczeństwo</h2>
+      <p>
+        Dane kolekcji są przechowywane w chronionej pamięci aplikacji na urządzeniu
+        użytkownika, zgodnie z mechanizmami bezpieczeństwa systemu Android.
+        Deweloper nie utrzymuje publicznej chmury z danymi kolekcji użytkowników.
+      </p>
+      <p>
+        Żaden system nie gwarantuje absolutnego bezpieczeństwa. Użytkownik powinien
+        zabezpieczyć urządzenie (blokada ekranu, aktualizacje systemu) oraz uważać,
+        komu udostępnia wyeksportowane kopie zapasowe.
+      </p>
+    </section>
+
+    <section>
+      <h2>12. Prawa użytkownika i RODO</h2>
+      <p>
+        Deweloper nie przechowuje danych kolekcji użytkownika na własnych serwerach.
+        Główne dane osobowe w rozumieniu korzystania z aplikacji (notatki, zdjęcia,
+        informacje wpisane przez użytkownika) pozostają na urządzeniu użytkownika
+        i są pod jego kontrolą.
+      </p>
+      <p>
+        Jeżeli użytkownik wyśle wiadomość e-mail do dewelopera, może poprosić
+        o dostęp do przekazanych danych, ich sprostowanie lub usunięcie,
+        kontaktując się pod adresem
+        <a href="mailto:msukulenty@gmail.com">msukulenty@gmail.com</a>.
+      </p>
+      <p>
+        Użytkownik ma prawo wnieść skargę do organu nadzorczego — w Polsce jest to
+        Prezes Urzędu Ochrony Danych Osobowych (<a href="https://uodo.gov.pl" rel="noopener noreferrer">uodo.gov.pl</a>).
+      </p>
+    </section>
+
+    <section>
+      <h2>13. Zmiany polityki</h2>
+      <p>
+        Polityka może być aktualizowana, gdy zmieni się sposób działania aplikacji
+        lub wymagania prawne. Data wejścia w życie bieżącej wersji jest podana
+        na początku dokumentu. Aktualna wersja jest dostępna pod tym adresem URL.
+      </p>
+    </section>
+
+    <footer>
+      <p>Ostatnia aktualizacja: 13 sierpnia 2026 r.</p>
+    </footer>
+  </main>
+</body>
+</html>
